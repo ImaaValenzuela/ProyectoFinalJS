@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Magic Tienda - Zapatillas</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/vendor/swal/sweetalert2.css">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">magictienda@contacto.com</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +54 11 1111-1111
+        </div>
+        <div class="social-links d-none d-md-block">
+        <a target="_blank" href="https://www.instagram.com/magictienda/" class="instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+    </section>
+    <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
+        <nav id="navbar" class="navbar">
+            <ul>
+            <li><a href="../index.html" class="nav-link scrollto">Home</a></li>
+            <li><a href="zapatillas.html" class="nav-link scrollto">Zapatillas</a></li>
+            <li><a href="gorras.html" class="nav-link scrollto">Gorras</a></li>
+            <li><a href="ofertas.html" class="nav-link scrollto active">Sale</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+    </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <span>Ofertas</span>
+                <h2>Ofertas</h2>
+                <p>Todas nuestras ofertas:</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <main id="items" class="col-sm-8 row"></main>
+            <aside class="col-sm-4">
+                <h2>Mi Carrito</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <p class="text-right">Total: <span id="total"></span></p>
+                <button id="boton-compra" class="btn btn-success">Comprar</button>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-title">
+            <span>Ultimos Compradores</span>
+            <h2>Ultimos Compradores</h2>
+            <p id="app"></p>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                <h3>Magic</h3>
+                <p>
+                    Palermo<br>
+                    Buenos Aires, ARG<br><br>
+                <strong>Telefono:</strong> +54 11 1111-1111<br>
+                <strong>Email:</strong> magictienda@contacto.com<br>
+                </p>
+                <div class="social-links mt-3">
+                <a target="_blank" href="https://www.instagram.com/magictienda/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Sobre Nosotros</h4>
+            <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Terminos de Servicio</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Politica de Privacidad</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Boton de Arrepentimiento</a></li>
+            </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Nuestros Productos</h4>
+            <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Zapatillas</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Gorras</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+        &copy; Copyright <strong><span>MagicTienda</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+        Designed by <a target="_blank" href="https://www.instagram.com/imaavalenzuela/">Enltd</a>
+        </div>
+    </div>
+    </footer>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/swal/sweetalert2.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/sale.js" type="module"></script>
+</body>
+</html>
